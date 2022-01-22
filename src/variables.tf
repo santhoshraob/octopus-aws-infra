@@ -6,5 +6,7 @@ variable "region" {
 variable "tags" {
   type = map(string)
   description = "Tags for infrastructure resources."
-  default = {}
+  default = {
+    Name = "Octopus"
+  }
 }
