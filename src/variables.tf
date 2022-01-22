@@ -4,7 +4,7 @@ variable "region" {
 }
 
 variable "custom_tags" {
-  type = map(any)
+  type = map(string)
   description = "Tags for infrastructure resources."
 
   default = {
