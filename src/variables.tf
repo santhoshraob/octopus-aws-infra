@@ -8,3 +8,8 @@ variable "tags" {
   description = "Tags for infrastructure resources."
   default = {}
 }
+
+variable "project" {
+  type = string
+  default = "Octopus"
+}
