@@ -1,5 +1,6 @@
 # Local .terraform directories
 **/.terraform/*
+.circleci/dev.config.yml
 
 # .tfstate files
 *.tfstate
