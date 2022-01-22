@@ -3,14 +3,8 @@ variable "region" {
   default = "us-east-1"
 }
 
-variable "custom_tags" {
+variable "tags" {
   type = map(string)
   description = "Tags for infrastructure resources."
-
-  default = {
-    Department = "IT"
-    CostCentre = "ABC123"
-    ContactPerson = "andy@tinfoilcipher.co.uk"
-    ManagedByTerraform = "True"
-}
+  default = {}
 }
